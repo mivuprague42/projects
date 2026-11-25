@@ -1,6 +1,6 @@
 #include <unistd.h>
 
-void	putchar(char c)
+void	ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
